@@ -1,0 +1,49 @@
+.winners-container {
+    background-color: #f7f7f7;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .winners-title {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .winners-subtitle {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .winners-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .winners-item {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .winner-name {
+    font-weight: bold;
+  }
+  
+  .winner-score {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
