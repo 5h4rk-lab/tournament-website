@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
-import './DisplayData.css';
+import AppNavbar from "./AppNavbar";
 
 function DisplayData() {
   const [data, setData] = useState([]);
@@ -24,7 +24,8 @@ function DisplayData() {
   };
 
   return (
-    <div className='container mt-4'>
+    <div className='mt-4'>
+      <AppNavbar/>
       <h1 className="text-center display-title mb-4">Upcoming Events</h1>
       {data.map((item, index) => (
         <div key={index} className="card mb-4 event-card">

@@ -33,6 +33,7 @@ const Signup = () => {
             <Form.Control
               type="text"
               placeholder="First Name"
+              required
             />
           </Form.Group>
 
@@ -40,6 +41,7 @@ const Signup = () => {
             <Form.Control
               type="text"
               placeholder="Last Name"
+              required
             />
           </Form.Group>
           

@@ -1,0 +1,15 @@
+.vertical-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .display-4 {
+    font-size: 2rem; 
+  }
+  
+  .lead {
+    font-size: 1.25rem; 
+  }
+  

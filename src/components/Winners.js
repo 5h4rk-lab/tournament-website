@@ -1,6 +1,5 @@
 import React from 'react';
-import './Winners.css'; // Import a custom CSS file for styling
-
+import './Winners.css'; 
 function Winners() {
   const winners = [
     { name: 'Winner 1', score: 100 },

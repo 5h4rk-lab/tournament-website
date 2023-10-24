@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import './Home.css';
+import AppNavbar from "./AppNavbar";
+
 
 function Home() {
     const [msg, setMsg] = useState('');
@@ -29,6 +30,7 @@ function Home() {
 
     return (
         <div className='home-container'>
+            <AppNavbar />
             <h1 className="home-title">Create a New Event</h1>
             <div className="row justify-content-center">
                 <div className="col-md-6">
